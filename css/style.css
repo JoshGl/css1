@@ -1,10 +1,18 @@
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(22, 213, 22);
+    background-color:black;
 }
 
 h1 {
     background-color: green;
+    color:aliceblue
+}
+
+h2 {
+    background-color: green;
+    color:aliceblue
 }
 
 nav ul a {
@@ -15,6 +23,7 @@ nav ul a {
 
 nav ul {
     list-style-type: none;
+    color:aliceblue
 }
 
 nav ul li {
@@ -26,3 +35,22 @@ nav ul li {
     text-align: center;
     min-height: 90vh;
 }
+
+.Description {
+    background-image: url(https://www.alpinegardensociety.net/wp-content/uploads/2019/05/National-collection-of-small-and-miniature-hostas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    color:aliceblue
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px #888;
+  }
