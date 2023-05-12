@@ -5,9 +5,37 @@ body {
     background-color:black;
 }
 
-h1 {
-    background-color: green;
+nav {
+    min-height: 14vh;
+    background-color: green;    
+}
+
+nav ul a {
+    background-color:none;
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul {
+    padding: 20px;
+    float: right;
+    display: flex;
+    list-style-type: none;
     color:aliceblue
+}
+
+nav ul li {
+    margin-right: 0.5em;
+}
+
+nav ul a:hover {
+    color: azure
+}
+
+h1 {
+    color:aliceblue;
+    font-size: 5.0em;
 }
 
 h2 {
@@ -15,33 +43,19 @@ h2 {
     color:aliceblue
 }
 
-nav ul a {
-    background-color:greenyellow;
-    color:black;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style-type: none;
-    color:aliceblue
-}
-
-nav ul li {
-    float: left;
-    margin-right: 0.5em;
-}
-
 .jumbotron {
     text-align: center;
-    min-height: 90vh;
-}
-
-.Description {
+    min-height: 50vh;
     background-image: url(https://www.alpinegardensociety.net/wp-content/uploads/2019/05/National-collection-of-small-and-miniature-hostas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.Description {
+    
+    font-size: 2em;
     height: 160vh;
-    color:aliceblue
+    color:aliceblue;
 }
 
 table, th, td {
